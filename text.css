@@ -1,0 +1,214 @@
+@font-face{
+    font-family:'Byekan';
+    src:url('../fonts/Byekan.ttf')
+     format('truetype');
+}
+@font-face{
+    font-family='lalezar';
+    src:url('../fonts/lalezar.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.green{
+    background-color: #009688d6;
+    width: 100%;
+    height: 120px;
+    font-style: italic;
+ 
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 50;
+    font-family: lalezar;
+    font-size: 50px;
+    
+}
+.black{
+    background-color: #000000d9;
+    width: 100%;
+    height: 60px;
+}
+.li{
+    display: inline-block;
+    color:white;
+    padding: 2px 20px;
+}
+.li a:hover{
+  color: #ff5722
+}
+.meno{
+    color: aliceblue;
+   
+}
+.orange{
+    background-color: #ff5722;
+    width: 100%;
+    height: 60px;
+}
+.lii{
+    display: inline-block;
+     color:aliceblue;
+    padding: 5px 20px;
+
+}
+lii a{
+    color: white;
+}
+ .lii a:hover{
+    color: black;
+}
+.members{
+    text-align: center;
+    margin: 125px;
+    width: 1600;
+
+    
+}
+.member-list{
+    list-style-type: none;
+    margin-top: 25px;
+    text-align: justify;
+    
+    
+}
+.mah:hover{
+    color: red;
+}
+.member-item{
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    
+}
+.member-item:hover{
+    box-shadow: 0 0 15px #bbbbbb;
+    
+}
+
+.img{
+width: 350;
+}
+.img:hover{
+   opacity: 0.2;
+}
+a:link{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    
+}
+p{
+    text-align: justify;
+    padding: 50px;
+}
+.qeimat{
+    font-size: 30px;
+    color: green;
+    text-align: center;
+    padding-top: 50px;
+}
+.a{
+    font-size: 20px;
+    color: #6a6262;
+}
+.tree{
+    margin-bottom: 20px
+}
+
+.buy{
+    background-color: #00965f;
+    height: 50px;
+    width:150px;
+    display: inline-block;
+}
+.heart{
+    background-color:#a04444;
+    height: 50px;
+    width: 75px;
+    display: inline-block;
+    
+}
+.flash{
+    height: 50px;
+    width: 75px;
+    background-color: #316a98;
+    display: inline-block;
+}
+.p{  
+    font-size: 30px;
+    text-align: center;
+    color: #666161;
+    
+}
+.liii{
+    list-style-type: none;
+    
+}
+.right{
+    padding: 32px;
+    
+}
+.right a{
+    color: #666161;
+}
+.right a:hover{
+    padding-right: 40px;
+    font-size: 50px;
+    color: cadetblue;
+}
+.formm{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 22px;
+    
+}
+.formmm{
+    height: 40px;
+    width: 40px;
+}
+.blackk{
+    display: inline-block;
+}
+.buttonn{
+    margin-right: 600;
+    background-color: #ae3131;
+}
+.button{
+    background-color: #357535;
+    margin-top: 10px;
+}
+.button a{
+    color: aliceblue;
+}
+.buttonn a{
+    color: aliceblue;
+}
+.buy:hover{
+    background-color: #0096885e;
+    
+    
+}
+.heart:hover{
+    background-color: #e91e6361;
+}
+.flash:hover{
+    background-color: #00968847;
+}
+.mah{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: mymove 5s infinite;
+
+}
+
+@keyframes mymove {
+  0%   {top: 0px; left: 0px; color: #f44336;}
+  25%  {top: 0px; left: 100px; color: #009688;}
+     50%   {top: 0px; right: 0px; color: #f44336;}
+  100%  {top: 0px; right: 100px; color: #009688;
+}
